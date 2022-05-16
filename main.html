@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+</head>
+<body>
+    <div id="navbar">
+        <h1>Brewery</h1>
+        <a href="./main.html">Main Page</a>
+        <a href="./searchPage.html">Search Page</a>
+    </div>
+
+    <button><a href="./individualPage.html" >Individual Brewery Page</a></button>
+
+    <label for="">
+        Brewery Type :
+    </label>
+    <select name="" id="breweryType" onchange="displayBreweryType()">
+        <option value="select">Select</option>
+        <option value="micro">micro</option>
+        <option value="nano">nano</option>
+        <option value="regional">regional</option>
+        <option value="brewpub">brewpub</option>
+        <option value="large">large</option>
+        <option value="planning">planning</option>
+        <option value="bar">bar</option>
+        <option value="contract">contract</option>
+        <option value="proprietor">proprietor</option>
+        <option value="closed">closed</option>
+    </select>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Brewery Type</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody id="breweries">
+          
+        </tbody>
+    </table>
+    <script src="./script/main.js"></script>
+</body>
+
+</html>

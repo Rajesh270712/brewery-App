@@ -1,0 +1,24 @@
+#breweryName{
+    padding: 10px ;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+
+}
+table{
+    
+    border-collapse: collapse;
+    margin: 10px auto;
+ }
+ 
+ td,th{
+     border: 1px solid;
+     padding: 4px;
+ }
+ #breweries a{
+     text-decoration: none;
+     color: blue;
+     
+     padding: 4px;
+ }
+ 
